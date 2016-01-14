@@ -4,5 +4,5 @@ const { Platform } = React;
 if (Platform.OS === 'android') {
   module.exports = require('./Swiper.android');
 } else if (Platform.OS === 'ios') {
-  module.exports = require('react-native-swiper');
+  module.exports = require('./Swiper.ios');
 }
