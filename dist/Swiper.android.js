@@ -91,6 +91,7 @@ var Swiper = React.createClass({
       <View style={{flex: 1}}>
         <ViewPagerAndroid
           onPageSelected={this.onPageSelected}
+          style={{flex: 1}}
           initialPage={0}>
           {this.props.children}
         </ViewPagerAndroid>
